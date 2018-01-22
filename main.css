@@ -1,0 +1,13 @@
+ul {
+  list-style: none;
+  display: flex; 
+  justify-content: center;
+}
+
+ul li {
+  display: inline;
+}
+
+.main-logo img {
+  display: block;
+}
