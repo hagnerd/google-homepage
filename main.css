@@ -97,6 +97,7 @@ input[type="submit"] {
   margin: 0 3px;
 
   font-weight: bold;
+  font-size: 13px;
   text-align: center;
   line-height: 27px;
 
@@ -118,5 +119,28 @@ input[type="submit"] {
   justify-content: center;
 }
 
+input[type="text"] {
+  width: 500px;
+  height: 40px; 
+  border-radius: 2px;
+  border: 1px solid #dedede;
+  box-sizing: border-box;
+  box-shadow: 0 1px 1px #ccc;
+}
 
+  input[type="text"]:hover {
+    box-shadow: 0px 3px 20px rgb(218, 218, 218);
+  }
 
+.type-field {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.main-logo {
+  display: flex; 
+  flex-direction: row;
+  justify-content: center;
+  margin: 100px auto 50px;
+}
